@@ -21,7 +21,7 @@ let mainBlogImageUrl =
   'https://images.pexels.com/photos/1831115/pexels-photo-1831115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940';
 let mainBlogData = {
   title: 'Poker | Title of Blog Post Here',
-  secondaryTitle: 'Second Headline Blah Blah',
+  secondaryTitle: 'Second Headline Goes Here',
   author: 'Sebastian Ingrams',
   date: 'Jan 01 2020',
   images: [
@@ -35,7 +35,8 @@ let mainBlogData = {
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores natus ipsa quos voluptatum accusamus nam inventore! Culpa, repellendus illo, velit provident itaque quis cum odit porro accusantium quam facere debitis est delectus illum soluta laborum quisquam blanditiis assumenda. Optio, exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa iure, molestias perferendis nostrum voluptatem, minus illum sapiente, veritatis tenetur cupiditate. Sed non minima similique porro autem quas nobis nesciunt.',
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores natus ipsa quos voluptatum accusamus nam inventore! Culpa, repellendus illo, velit provident itaque quis cum odit porro accusantium quam facere debitis est delectus illum soluta laborum quisquam blanditiis assumenda. Optio, exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa iure, molestias perferendis nostrum voluptatem, minus illum sapiente, veritatis tenetur cupiditate. Sed non minima similique porro autem quas nobis nesciunt.',
   ],
-  videoIframe: `<iframe src="https://www.youtube.com/embed/8uD6s-X3590" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+
+  videoIframe: `<iframe width="958" height="539" src="https://www.youtube.com/embed/w7ejDZ8SWv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
 };
 
 window.addEventListener('load', () => {

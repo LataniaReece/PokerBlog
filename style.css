@@ -32,7 +32,7 @@ body {
 
 #mainNavbar .nav-link {
   color: var(--nav-link-font-color);
-  font-size: 1.1vw;
+  font-size: 1.25rem;
   font-weight: 100;
 }
 
@@ -87,6 +87,12 @@ body {
 
 .social-side .share {
   background-color: transparent;
+}
+
+@media screen and (max-width: 991px) {
+  .social-side {
+    display: none;
+  }
 }
 
 .wrapper {
@@ -216,16 +222,15 @@ body {
 .blog-item .blog-item-content .blog-details div p {
   padding-left: 0.1rem;
   display: inline;
-  font-size: 0.9vw;
+  font-size: 0.85rem;
 }
 
 .blog-item .blog-item-content .blog-title {
-  font-size: min(1.5vw, 1.5rem);
+  font-size: 1.5rem;
   color: #3a6ea5;
 }
 
 .popular-blog-container .aside-blog-underline {
-  border-bottom: rgba(0, 0, 0, 0.4) solid 1px;
   margin: 0 auto 1.15rem auto;
   width: 95%;
 }
@@ -272,6 +277,16 @@ body {
   border-right: 0.05rem solid var(--nav-link-font-color);
 }
 
+@media screen and (max-width: 991px) {
+  #footer-bottom {
+    display: none;
+  }
+
+  .footer-mid {
+    border-bottom: none !important;
+  }
+}
+
 /* Sticky Footer */
 
 .my-footer-sticky {
@@ -280,7 +295,7 @@ body {
   /* padding: 2rem; */
   position: fixed;
   bottom: 0;
-  width: 100vw;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.4);
   height: 10vh;
   display: flex;
@@ -307,6 +322,14 @@ body {
 /* Media Query */
 
 @media screen and (max-width: 990px) {
+  .blog-item {
+    width: 100% !important;
+  }
+
+  .blog-item .blog-item-content .blog-details {
+    flex-direction: column;
+  }
+
   .wrapper {
     display: block;
   }
@@ -314,6 +337,5 @@ body {
   .right-aside {
     width: 100%;
     margin: 0 auto;
-    border: solid black 2px;
   }
 }
